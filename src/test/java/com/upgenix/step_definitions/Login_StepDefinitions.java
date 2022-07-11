@@ -102,10 +102,7 @@ public class Login_StepDefinitions {
         Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
 
-    @When("Salesmanager-Posmanager enters a password")
-    public void salesmanagerPosmanagerEntersAPassword() {
-        loginPage.inputPassword.sendKeys();
-    }
+
 
     @Then("Salesmanager-Posmanager sees the bullet signs while writing the password")
     public void salesmanagerPosmanagerSeesTheBulletSignsWhileWritingThePassword() {
