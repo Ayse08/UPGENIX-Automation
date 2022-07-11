@@ -1,4 +1,4 @@
-@wip
+
 Feature: Upgenix app login Functionality
   User story:
   As a user, I should be able to log in so that I can land on homepage.
