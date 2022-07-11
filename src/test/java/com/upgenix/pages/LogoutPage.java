@@ -8,17 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class LogoutPage {
 
     public LogoutPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(name= "login")
-    public WebElement inputEmail;
-
-    @FindBy(name= "password")
-    public WebElement inputPassword;
-
-    @FindBy(xpath = "//button[.='Log in']")
-    public WebElement loginButton;
 
     @FindBy(xpath = "//span[@class='oe_topbar_name']")
     public WebElement profileIcon;
@@ -28,6 +20,7 @@ public class LogoutPage {
 
     @FindBy(className = "modal-title")
     public WebElement expiredMessage;
+
 
 
 }
